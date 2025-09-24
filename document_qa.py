@@ -1,12 +1,12 @@
 import streamlit as st
 import os
-from langchain.document_loaders import PyPDFLoader, TextLoader
+import tempfile
+from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
-import tempfile
 
 # Page setup
 st.set_page_config(

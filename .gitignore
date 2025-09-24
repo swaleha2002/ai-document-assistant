@@ -1,0 +1,53 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# API keys and environment variables
+.env
+.secrets
+config.py
+
+# Streamlit cache
+.streamlit/
+
+# ChromaDB database
+chroma_db/
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Package files
+*.egg-info/
+dist/
+build/
+
